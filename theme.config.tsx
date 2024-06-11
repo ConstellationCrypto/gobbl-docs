@@ -5,12 +5,12 @@ import image_src from './images/logo.svg'
 
 const config: DocsThemeConfig = {
   logo: (
-    <Image src={image_src} alt={""} width={100}/>
+    "Gobbl Docs"
   ),
   nextThemes: { defaultTheme: "light", forcedTheme: "light" },
   useNextSeoProps() {
     return {
-      titleTemplate: "%s - [todo] Testnet Docs",
+      titleTemplate: "%s - Gobbl Testnet Docs",
     };
   },
   navigation: false,
